@@ -18,6 +18,7 @@ strings = []
   if num.class == ""
   strings << "1"
  end
+ binding.pry
 end
 strings.count
 end
