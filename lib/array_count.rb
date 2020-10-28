@@ -16,7 +16,7 @@ def count_empty_strings(array)
 strings = []
   array.count do |num|
   if num.class == nil
-  strings << 1
+  strings << "1"
   binding.pry
  end
 end
